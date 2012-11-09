@@ -1,0 +1,28 @@
+<!--
+ 
+-->
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+	<f:section title="Global Assembla OAuth Settings" >
+		<f:entry title="Assembla API Uri"  field="apiUri" help="/plugin/assembla-oauth/help/realm/assembla-uri-help.html">
+			<f:textbox default="https://api.assembla.com" />
+		</f:entry>
+
+		<f:entry title="Client ID"  field="clientID" help="/plugin/assembla-oauth/help/realm/client-id-help.html" >
+			<f:textbox />
+		</f:entry>       
+                      
+		<f:entry title="Client Secret" field="clientSecret" help="/plugin/assembla-oauth/help/realm/client-secret-help.html">
+			<f:textbox />
+		</f:entry>
+               
+                
+                <f:entry title="Space url name" field="spaceId" help="/plugin/assembla-oauth/help/realm/assembla-space-help.html">
+
+                    <f:textbox  /> 
+                        
+		</f:entry>
+              
+		
+	</f:section>
+</j:jelly>

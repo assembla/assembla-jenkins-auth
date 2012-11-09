@@ -1,0 +1,25 @@
+<!--
+ 
+-->
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+	<f:section title="Assembla Authorization Settings" >
+            <f:entry title="Admin Usernames"  field="adminUserNames" help="/plugin/assembla-oauth/help/auth/admin-usernames-help.html">
+                    <f:textbox />
+                 </f:entry>
+                 
+            <f:block>
+                <div style="background-color:#f5f5f5">
+                 <p> By default:</p>
+                 <p> - Assembla <b>ALL</b> permission has <b>ADMIN</b> access.</p>
+                 <p> - Assembla <b>EDIT</b> permission has <b>EDIT</b> access.</p>
+                 <p> - Assembla <b>VIEW</b> permission has <b>READ</b> access.</p>
+                 <p> - Assembla <b>NONE</b> permission has <b>NO</b> access.</p>
+                
+                </div>
+            </f:block>
+            
+            
+            
+	</f:section>
+</j:jelly>
