@@ -12,7 +12,7 @@ A. Assembla Security Realm (authentication):
 --------------------------------------------
 
 Handles the authentication and acquisition of the Assembla OAuth token for the connecting user.
-Takes the client id (API key) and client secret (API key secret) from the application registration here:
+Takes the client id (Application identifier) and client secret (Application secret) from the application registration here:
 https://www.assembla.com/user/edit/manage_clients
 
 The entry should look like this:
